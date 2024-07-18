@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Swis721 BlkOul BT';
+    src: url('path/to/Swis721BlkOulBT.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'BankGothic Lt BT';
+    src: url('path/to/BankGothicLtBT.woff2') format('woff2');
+}
+
+body {
+    margin: 0;
+    font-family: 'BankGothic Lt BT', sans-serif;
+    background-color: black;
+    color: #ff0000;
+    text-shadow: 0 0 2px #ff0000, 0 0 4px #ff0000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome-section h1 {
+    font-family: 'Swis721 BlkOul BT', sans-serif;
+    font-size: 38px;
+    color: #ff0000;
+    text-shadow: 0 0 2px #ff0000, 0 0 4px #ff0000;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav button {
+    font-family: 'Swis721 BlkOul BT', sans-serif;
+    font-size: 26px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: black;
+    border: 2px solid #ff0000;
+    color: #ff0000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #ff0000;
+    color: black;
+    text-shadow: 0 0 2px #ff0000;
+}
+
+.content-section {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    width: 80%;
+    text-align: left;
+}
+
+.content-section h2 {
+    text-align: center;
+    font-family: 'Swis721 BlkOul BT', sans-serif;
+    font-size: 24px;
+    color: #ff0000;
+    text-shadow: 0 0 2px #ff0000, 0 0 4px #ff0000;
+    margin-bottom: 20px;
+}
+
+.content-section h3 {
+    font-family: 'Swis721 BlkOul BT', sans-serif;
+    font-size: 24px;
+    color: #ff0000;
+    text-shadow: 0 0 2px #ff0000, 0 0 4px #ff0000;
+    margin-top: 20px;
+}
+
+.content-section p,
+.content-section ul {
+    font-family: 'BankGothic Lt BT', sans-serif;
+    font-size: 20px;
+    color: #ff0000;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.content-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content-section ul li {
+    margin-bottom: 10px;
+}
+
+.content-section a {
+    color: #ff0000;
+}
+
+.content-section a:hover {
+    text-decoration: underline;
+}
+
+#home {
+    display: block;
+}
